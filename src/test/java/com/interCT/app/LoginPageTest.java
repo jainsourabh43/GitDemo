@@ -31,7 +31,7 @@ public class LoginPageTest extends Base {
 	}
 
 	// login Page
-	@Test(priority = 1)
+	@Test(priority = 3)
 	public void basePageNavigation() throws IOException, InterruptedException {
 	
 		// In Landing Page- Entering user Email ID and Clicking on Next button using submit method
