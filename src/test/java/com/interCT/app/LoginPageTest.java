@@ -34,6 +34,7 @@ public class LoginPageTest extends Base {
 	@Test(priority = 3)
 	public void basePageNavigation() throws IOException, InterruptedException {
 	System.out.println("changed by Asian architect Timezone guy");
+	System.out.println("changed by American architect Timezone guy");
 		// In Landing Page- Entering user Email ID and Clicking on Next button using submit method
 		IC_LandingPage lp = new IC_LandingPage(driver);
 		lp.getEmail().sendKeys(prop.getProperty("ICT_UserName"));
