@@ -33,7 +33,7 @@ public class LoginPageTest extends Base {
 	// login Page
 	@Test(priority = 3)
 	public void basePageNavigation() throws IOException, InterruptedException {
-	
+	System.out.println("changed by American Timezone guy");
 		// In Landing Page- Entering user Email ID and Clicking on Next button using submit method
 		IC_LandingPage lp = new IC_LandingPage(driver);
 		lp.getEmail().sendKeys(prop.getProperty("ICT_UserName"));
